@@ -147,7 +147,9 @@
       });
       function apiResponseHandler(response) {
         if (response.sentences.length > 0) {
-          outputTextElem.value = response.sentences[0].trans;
+          outputTextElem.value = response.sentences
+            .map((sentence) => sentence.trans)
+            .join("");
         } else {
           showError("Impossible de traduire votre demande.");
         }
