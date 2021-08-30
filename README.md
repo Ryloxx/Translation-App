@@ -2,6 +2,7 @@
 ## Specification
 Uses IBM Watson Cloud Translator.
 ## Usage
+- Clone the repository
 - Open the 'index.html' file in a browser.
 - Fill in the text in the left text area with the text you want to translate. 
 - When your done press the arrow button to start the translation.
